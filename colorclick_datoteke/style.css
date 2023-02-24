@@ -1,0 +1,120 @@
+* {
+    font-family: monospace;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    touch-action: manipulation;
+    -ms-touch-action: manipulation;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ color:white;
+background:#0c0d0f;
+}
+
+h1 {
+    text-align: center; 
+    font-size: 48px;
+    margin-top: 5vh;
+    -webkit-user-select: none;        
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   
+}
+
+h2 {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 65vh;
+    color:grey;
+}
+
+h3 {
+    margin-top: 10vh;
+}
+
+#a {
+    width: 50vw;
+    margin-left: 25vw;
+    font-size: 32px;
+    color: grey;
+    text-align: justify;
+}
+
+#a1 {
+    position: fixed;
+    font-size: 32px;
+    -webkit-user-select: none;        
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: underline;
+    color: grey;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#a2 {
+    position: fixed;
+    font-size: 32px;
+    -webkit-user-select: none;        
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: underline;
+    color: grey;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+button {
+    width: 48px;
+    height: 26px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: white;
+    font-weight: bold;
+    color:black;
+}
+
+canvas {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+td {
+    font-size: 24px;
+}
+
+tr {
+    font-size: 24px;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 25px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
